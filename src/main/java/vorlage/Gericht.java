@@ -1,5 +1,7 @@
 package vorlage;
 
+import java.util.Objects;
+
 public class Gericht {
     public Gericht(String name, String beschreibung, double preis) {
 		super();
@@ -31,6 +33,8 @@ public class Gericht {
 	private String name;
     private String beschreibung;
     private double preis;
+    
+    
 
     // Konstruktor, Getter und Setter
 }

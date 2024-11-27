@@ -14,4 +14,14 @@ public class Restaurant {
     public void gerichtHinzufuegen(Gericht gericht) {
         // Implementierung
     }
+
+	public Object getBestellungen() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void bestellungEntfernen(Bestellung bestellung) {
+		// TODO Auto-generated method stub
+		
+	}
 }

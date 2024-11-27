@@ -32,7 +32,7 @@ public class BestellungTest {
         Bestellung bestellung = new Bestellung(1, new Date(), kunde, kellner);
 
         bestellung.gerichtHinzufuegen(gericht);
-        assertTrue(bestellung.getGerichte().contains(gericht));
+        assertTrue(bestellung.getGerichte().equals(gericht));
     }
 
     @Test

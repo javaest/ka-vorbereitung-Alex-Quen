@@ -7,6 +7,19 @@ public class Kellner extends Person {
 		this.name = name;
 		this.mitarbeiterID = mitarbeiterID;
 	}
+	public Object getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Integer mitarbeiterID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public void setName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
 
     // Konstruktor, Getter und Setter
 }
