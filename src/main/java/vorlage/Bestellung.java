@@ -5,12 +5,12 @@ import java.util.Date;
 import java.util.List;
 
 public class Bestellung {
-    private int bestellnummer;
-    private Date bestelldatum;
-    private List<Gericht> gerichte;
-    private Kunde kunde;
-    private Kellner kellner;
-    private double gesamtbetrag;
+     int bestellnummer;
+     Date bestelldatum;
+     List<Gericht> gerichte;
+     Kunde kunde;
+     Kellner kellner;
+     double gesamtbetrag;
 
     // Konstruktor, Getter und Setter
 
